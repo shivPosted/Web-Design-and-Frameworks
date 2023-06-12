@@ -184,3 +184,7 @@ footer {
   margin-bottom: 48px;
   color: #64748b;
 }
+
+.chair {
+  box-shadow: 2px 5px 5px 0 rgba(0, 0, 0, 0.07);
+}
