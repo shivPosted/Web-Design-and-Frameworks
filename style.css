@@ -102,7 +102,12 @@ img {
 }
 
 /* FEATURES */
-.features-icon {
+.feature-icon {
+  stroke: #0d9488;
+  width: 32px; /*try to look for dimensions in svg in html*/
+  height: 32px;
+  margin-bottom: 16px;
+  margin-left: 10px;
 }
 
 .features-title {
@@ -165,6 +170,9 @@ h3 {
 }
 
 .chair-icon {
+  stroke: #0d9488;
+  width: 20px;
+  height: 20px;
 }
 
 .chair-price {
