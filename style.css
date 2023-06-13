@@ -31,7 +31,7 @@ body {
 
 header,
 section {
-  margin-bottom: 48px;
+  margin-bottom: 96px;
 }
 
 h2 {
@@ -116,6 +116,7 @@ img {
 
 .features-title {
   margin-bottom: 16px;
+  margin-top: 16px;
   font-size: 20px;
 }
 
@@ -127,7 +128,7 @@ img {
 /* TESTIMONIAL */
 .testimonial-section {
   background-color: #0f766e;
-  color: #fff;
+  color: #f0fdfa;
   padding: 24px;
   border-radius: 12px;
 }
@@ -151,7 +152,7 @@ img {
 
 /* CHAIRS */
 .chair-box {
-  padding: 24px;
+  padding: 32px;
 }
 
 h3 {
@@ -167,11 +168,12 @@ h3 {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-bottom: 24px;
+
+  margin-bottom: 16px;
 }
 
 .chair-details li:last-child {
-  margin-bottom: 0;
+  margin-bottom: 48px;
 }
 
 .chair-icon {
@@ -183,6 +185,7 @@ h3 {
 .chair-price {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 footer {
@@ -197,4 +200,8 @@ footer {
 }
 .chair img {
   border-radius: 12px 12px 0 0;
+}
+
+.testimonial-author {
+  color: #ccfbf1;
 }
